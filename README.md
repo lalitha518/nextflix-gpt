@@ -1,20 +1,20 @@
 # Netflix GPT
 # configurations
-- create react app
-- configured the Tailwind css
-    -npm install -D tailwindcss
-    -npx tailwindcss init
-    -configure template path
-            -/** @type {import('tailwindcss').Config} */
-                module.exports = {
-                content: [
-                    "./src/**/*.{js,jsx,ts,tsx}",
-                ],
-                theme: {
-                    extend: {},
-                },
-                plugins: [],
-                }
+    - create react app
+    - configured the Tailwind css
+        -npm install -D tailwindcss
+        -npx tailwindcss init
+        -configure template path
+                -/** @type {import('tailwindcss').Config} */
+                    module.exports = {
+                    content: [
+                        "./src/**/*.{js,jsx,ts,tsx}",
+                    ],
+                    theme: {
+                        extend: {},
+                    },
+                    plugins: [],
+                    }
 # features
     - Login/sign Up
         - login/singup form
